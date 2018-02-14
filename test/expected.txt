@@ -5,6 +5,18 @@
 || Launch command format: java seedu.addressbook.Main [STORAGE_FILE_PATH]
 || Using storage file : addressbook.xml
 || ===================================================
+|| Enter command: || [Command entered:  history]
+|| 
+|| ===================================================
+|| Enter command: || [Command entered:  list]
+|| 
+|| 0 persons listed!
+|| ===================================================
+|| Enter command: || [Command entered:  history]
+||   history
+||   list
+|| 
+|| ===================================================
 || Enter command: || [Command entered:  sfdfd]
 || add: Adds a person to the address book. Contact details can be marked private by prepending 'p' to the prefix.
 || Parameters: NAME [p]p/PHONE [p]e/EMAIL [p]a/ADDRESS  [t/TAG]...
@@ -29,6 +41,7 @@
 || Example: help
 || exit: Exits the program.
 || Example: exit
+|| history shows all the executed commands (most recent last).
 || ===================================================
 || Enter command: || [Command entered:  delete 1]
 || The person index provided is invalid

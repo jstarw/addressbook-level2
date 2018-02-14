@@ -115,6 +115,10 @@ Examples:
 Clears all entries from the address book.<br>
 Format: `clear`  
 
+### Viewing command history : `history`
+Views the history of all executed commands in chronological order.
+Format: `history`
+
 #### Exiting the program : `exit`
 Exits the program.<br>
 Format: `exit`  
